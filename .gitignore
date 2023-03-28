@@ -1,0 +1,13 @@
+data/
+!data/davinci_techtree.json
+figures/
+models/
+*venv/
+weights/
+logs/
+results*/
+trajectories/
+__pycache__
+.vscode/
+output.txt
+temp*

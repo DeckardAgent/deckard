@@ -1,0 +1,6 @@
+tensorboard==2.10.1
+gym3==0.3.3
+torch==1.12.1
+sb3-contrib==1.6.2
+stable-baselines3==1.6.2
+git+https://github.com/MineDojo/MineCLIP  # Installs both  Mineclip and Minedojo

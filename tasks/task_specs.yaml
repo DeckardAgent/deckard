@@ -1,0 +1,34 @@
+wooden_pickaxe:
+  task_id: creative
+  sim: minedojo
+  fast_reset: 0
+  clip_specs:
+    prompts: []
+  reward_specs:
+    item_rewards: {}
+  success_specs:
+    terminal: false
+    reward: 0
+    all: {}
+  terminal_specs:
+    max_steps: 10000
+  techtree_specs:
+    guide_path: data/davinci_techtree.json
+    target_item: wooden_pickaxe
+
+base_task:
+  task_id: creative
+  sim: minedojo
+  fast_reset: 5
+  clip_specs:
+    prompts: []
+  reward_specs:
+    item_rewards: {}
+  success_specs:
+    terminal: false
+    reward: 0
+    all:
+      item:
+        quantity: 1
+  terminal_specs:
+    max_steps: 1000
