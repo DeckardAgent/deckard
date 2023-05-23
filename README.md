@@ -46,7 +46,7 @@ my_config:
   terminal_specs:
     max_steps: 10000
   techtree_specs:
-    guide_path: data/davinci_techtree.json
+    guide_path: data/codex_techtree.json
     target_item: wooden_pickaxe
     tasks:
       log: log_checkpoint.zip

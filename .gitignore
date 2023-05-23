@@ -1,5 +1,3 @@
-data/
-!data/davinci_techtree.json
 figures/
 models/
 *venv/
